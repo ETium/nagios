@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM alpine:latest
 MAINTAINER Jason Rivers <jason@jasonrivers.co.uk>
 
 ENV NAGIOS_HOME            /opt/nagios
