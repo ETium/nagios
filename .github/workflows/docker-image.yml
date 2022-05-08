@@ -6,8 +6,8 @@ on:
     branches: [ main ]
 
 env:
-  APP_NAME: minerproxy
-  DOCKERHUB_REPO: dockerinstyle/minerproxy
+  APP_NAME: nagios
+  DOCKERHUB_REPO: dockerinstyle/nagios
 
 jobs:
   main:
