@@ -1,4 +1,4 @@
-FROM alpine:latest
+FROM ubuntu:20.04
 MAINTAINER Jason Rivers <jason@jasonrivers.co.uk>
 
 ENV NAGIOS_HOME            /opt/nagios
