@@ -91,7 +91,7 @@ RUN echo postfix postfix/main_mailer_type string "'Internet Site'" | debconf-set
                                                 && \
     apt-get clean && rm -Rf /var/lib/apt/lists/*
 
-RUN pip install requests
+RUN pip install requests pynag
 
 RUN ( egrep -i "^${NAGIOS_GROUP}"    /etc/group || groupadd $NAGIOS_GROUP    )                         && \
     ( egrep -i "^${NAGIOS_CMDGROUP}" /etc/group || groupadd $NAGIOS_CMDGROUP )
